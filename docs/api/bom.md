@@ -15,7 +15,7 @@
 | data | `object` | ✅ |
 | data >> catalogId | `string` | ✅ | 产品ID |
 | data >> code | `string` | ✅ | 物料清单编码 |
-s
+
 </div>
 
 ### 返回参数
