@@ -1,0 +1,16 @@
+.request-data table {
+	width: 770px;
+}
+
+.request-data table tr > td:first-child {
+	width: 200px;
+}
+
+.request-data table tr > td:nth-child(2),
+.request-data table tr > td:nth-child(3) {
+	width: 100px;
+}
+
+.request-data table tr > td:last-child {
+	width: 370px;
+}
