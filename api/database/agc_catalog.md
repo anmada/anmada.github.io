@@ -1,3 +1,5 @@
+<div class="database-data">
+
 | 主键 | 必填 | 字段名 | 描述 | 类型 | 长度 | 默认值 |
 | :------: | :------: | ------ | ------ | :------ | :------: | ------ |
 | ✅ | ✅ | id | 主键ID | bigint | 20 |
@@ -17,3 +19,5 @@
 | | ✅ | name | 产品名称 | varchar | 50 |
 | | ✅ | type | 产品类型 | varchar | 20 |
 | | ✅ | brand_id | [品牌ID](/database/agc_brand) | bigint | 20 |
+
+</div>

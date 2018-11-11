@@ -1,3 +1,5 @@
+<div class="database-data">
+
 | 主键 | 必填 | 字段名 | 描述 | 类型 | 长度 | 默认值 |
 | :------: | :------: | ------ | ------ | :------ | :------: | ------ |
 | ✅ | ✅ | id | 主键ID | bigint | 20 |
@@ -17,3 +19,5 @@
 | | ✅ | quantity | 数量 | int | 10 | '1'
 | | ✅ | bom_id | [物料清单ID](/database/agc_bill_of_material) | bigint | 20
 | | ✅ | catalog_id | [产品ID](/database/agc_catalog) | bigint | 20 | 
+
+</div>

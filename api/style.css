@@ -1,4 +1,5 @@
-.request-data table {
+.request-data table,
+.database-data table {
 	width: 770px;
 }
 
@@ -13,4 +14,82 @@
 
 .request-data table tr > td:last-child {
 	width: 370px;
+}
+
+.database-data table tr > td:first-child,
+.database-data table tr > td:nth-child(2),
+.database-data table tr > td:nth-last-child(2) {
+	width: 60px;
+}
+
+.database-data table tr > td:last-child {
+	width: 80px;
+}
+
+.database-data table tr > td:nth-last-child(3){
+	width: 100px;
+}
+
+.database-data table tr > td:nth-child(3) {
+	width: 150px;
+}
+
+.database-data table tr > td:nth-child(4){
+	width: 260px;
+}
+
+.sidebar {
+	padding-top: 60px;
+}
+
+.app-nav.no-badge {
+	position: fixed;
+	left: 0;
+	margin: 0;
+	background: #fff;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+	height: 60px;
+	text-align: left;
+}
+.app-nav.no-badge ul {
+	display: block;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0 0 0 300px;
+}
+.app-nav.no-badge ul li {
+	padding: 0;
+	height: 60px;
+	line-height: 58px;
+}
+.app-nav.no-badge ul li a {
+	display: block;
+	min-width: 80px;
+	text-align: center;
+}
+.medium-zoom-overlay {
+	z-index: 10;
+}
+.medium-zoom-image {
+	z-index: 11;
+}
+main {
+	width: 1100px;
+	margin: 0 auto;
+	border-left: 1px solid rgba(0, 0, 0, 0.07);
+	border-right: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+body.sticky .sidebar,
+body.sticky .sidebar-toggle {
+	position: absolute;
+}
+.content {
+	width: 800px;
+	overflow: auto;
+	padding-top: 0;
+	margin-top: 60px;
+}
+.sidebar-toggle {
+	display: none;
 }

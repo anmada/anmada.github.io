@@ -1,3 +1,5 @@
+<div class="database-data">
+
 | 主键 | 必填 | 字段名 | 描述 | 类型 | 长度 | 默认值 |
 | :------: | :------: | ------ | ------ | :------ | :------: | ------ |
 | ✅ | ✅ | id | 主键ID | bigint | 20 |
@@ -17,3 +19,5 @@
 | | ✅ | code | 清单编号 | varchar | 30
 | | ✅ | releasing | 发行标志 | char | 1 | '1'
 | | ✅ | catalog_id | [产品ID](/database/agc_catalog) | bigint | 20 | 
+
+</div>
