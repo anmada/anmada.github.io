@@ -3,4 +3,7 @@
 * [产品](database/agc_catalog.md)
 * [物料清单](database/agc_bill_of_material.md)
 * [物料清单明细](/database/agc_catalog_bom)
-    
+* [开发者资格申请表](/database/agc_developer_apply.md)
+* [开发者资格申请表（个人信息）](/database/agc_developer_person_apply.md)
+* [开发者资格申请表（企业信息）](/database/agc_developer_enterprise_apply.md)
+* [开发者资格申请表（店铺信息）](/database/agc_developer_store_apply.md)
