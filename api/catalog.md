@@ -89,24 +89,6 @@
 
 </div>
 
-#### 产品类型
-```java
-public enum CatalogType {
-    /**
-     * 电动车成车
-     */
-    Electrombile,
-    /**
-     * 配件
-     */
-    Parts,
-    /**
-     * 用品
-     */
-    Articles
-}
-```
-
 ### 返回参数
 <div class="request-data">
 
@@ -189,3 +171,23 @@ public enum CatalogType {
 </div>
 
 ---
+
+## 枚举类型
+
+### 产品类型
+```java
+public enum CatalogType {
+    /**
+     * 电动车成车
+     */
+    Electrombile,
+    /**
+     * 配件
+     */
+    Parts,
+    /**
+     * 用品
+     */
+    Articles
+}
+```
