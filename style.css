@@ -83,7 +83,7 @@ body.sticky .sidebar-toggle {
 	position: absolute;
 }
 
-body.sticky .sidebar{
+body.sticky .sidebar {
 	border-right: none;
 	position: fixed;
 	left: 50%;
@@ -102,4 +102,24 @@ body.sticky .sidebar{
 
 .markdown-section {
 	border-left: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.docs-post table {
+	width: 769px;
+}
+
+.docs-post th,
+.docs-post td {
+	min-width: 125px;
+	max-width: 125px;
+	height: 51px;
+}
+
+.docs-post td:last-child {
+	min-width: 393px;
+	max-width: 393px;
+}
+
+blockquote > p {
+	margin-top: 0 !important;
 }
