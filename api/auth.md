@@ -31,7 +31,7 @@
 
 ## 注册接口
 
-?> <span class="label label-info">POST</span> `http://192.168.108.243:8000/api/gateway/password/find`
+?> <span class="label label-info">POST</span> `http://192.168.108.243:8000/api/gateway/register`
 
 ### 请求参数
 
